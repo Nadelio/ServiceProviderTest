@@ -1,0 +1,3 @@
+[submodule "TestImplementations"]
+	path = TestImplementations
+	url = https://github.com/Nadelio/ServiceProviderTestImplementations.git

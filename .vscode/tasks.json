@@ -21,8 +21,9 @@
             "type": "shell",
             "command": "jar",
             "args": [
-                "cvf",
-                "Services/Main.jar",
+                "cvfm", // 'm' flag to include manifest file
+                "Main.jar",
+                "manifest.txt",
                 "-C",
                 "Class Files",
                 "."

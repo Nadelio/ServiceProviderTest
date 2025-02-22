@@ -17,7 +17,7 @@ public class Main {
     }
 
     public static ServiceLoader<Service> loadExtensions(){
-        var path = Path.of("Services");
+        var path = Path.of("TestImplementations/Services");
 
         URL[] urls;
         try (var files = Files.list(path)) {
